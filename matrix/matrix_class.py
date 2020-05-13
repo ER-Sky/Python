@@ -342,7 +342,7 @@ class Matrix:
             raise ValueError(
                 "Only invertable matrices can be raised to a negative power"
             )
-        result = self
+        result = selot
         for i in range(other - 1):
             result *= self
         return result
